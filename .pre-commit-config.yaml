@@ -10,7 +10,6 @@ repos:
     rev: v0.4.0
     hooks:
       - id: go-fmt
-      - id: go-vet
       - id: go-imports
         args: [-over=15]
       - id: validate-toml
